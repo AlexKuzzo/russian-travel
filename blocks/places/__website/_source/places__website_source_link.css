@@ -1,0 +1,16 @@
+.places__website_source_link {
+  max-width: 456px;
+  max-height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-top: 12px;
+}
+
+.places__website_source_link:hover {
+  opacity: 0.8;
+}

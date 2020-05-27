@@ -1,0 +1,10 @@
+.places__paragraph_first {
+  max-width: 484px;
+  max-height: 150px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  display: inline;
+}

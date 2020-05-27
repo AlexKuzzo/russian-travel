@@ -4,7 +4,7 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  margin: 92px 0 auto;
+  margin: 92px auto;
   padding: 0 48px;
   grid-gap: 16px;
 

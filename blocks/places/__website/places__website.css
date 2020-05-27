@@ -1,0 +1,7 @@
+.places__website {
+  max-width: 456px;
+  max-height: 46px;
+  display: grid;
+  align-self: end;
+
+}
