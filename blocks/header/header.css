@@ -9,9 +9,41 @@
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 28px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
 
+
+
+@media screen and (max-width: 1028px) {
+  .header {
+    max-width: 928px;
+    max-width: 100%;
+    min-height: 52px;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .header {
+    max-width: 720px;
+    max-width: 100%;
+    min-height: 52px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .header {
+    max-width: 288px;
+    max-width: 100%;
+    min-height: 42px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+}

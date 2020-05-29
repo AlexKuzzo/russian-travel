@@ -7,9 +7,6 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  
-  justify-content: center;
-  align-items: center;
-  align-self: center;
+  z-index: 6;
   margin: 0;
 }

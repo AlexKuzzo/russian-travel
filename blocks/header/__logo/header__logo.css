@@ -2,5 +2,31 @@
     min-width: 176px;
     min-height: 52px;
     
-    
 }
+
+
+@media screen and (max-width: 1028px) {
+    .header {
+      max-width: 176px;
+      width: 100%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 777px) {
+    .header {
+      max-width: 720px;
+      width: 100%;
+      
+      
+    }
+  }
+  
+  @media screen and (max-width: 333px) {
+    .header {
+      max-width: 142px;
+      width: 100%;
+      min-height: 42px;
+      
+    }
+  }

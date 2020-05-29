@@ -7,17 +7,10 @@
   max-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
-  border: 1px solid red;
-  background-image: url(../../images/__background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
-  width: 100%;
-  text-decoration: none;
   color: #FFFFFF;
   display: flex;
   object-fit: contain;
-  z-index: 1;
+
   
 }
