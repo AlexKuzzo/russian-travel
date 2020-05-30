@@ -4,5 +4,7 @@
   background-color: #2A2C2F;
   margin: 0 auto;
   color: #ffffff;
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
