@@ -1,7 +1,7 @@
 Проектная работа 3: Путешествие по России
 ___________________________
 
-Выполненная работа по ссылке: (https://alexkuzzo.github.io/russian-travel/index.html)
+Готовая работа по ссылке: (https://alexkuzzo.github.io/russian-travel/index.html)
 
 ___________________________
 Содержание:
