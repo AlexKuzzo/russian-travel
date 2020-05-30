@@ -7,18 +7,25 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 64px;
+  margin: 0 auto 64px auto;
 }
 
 
 
+@media screen and (max-width: 777px){
+  .lead__subtitle {
+    margin:0 auto 40px auto;
+    line-height: normal;
+    max-width: 80%;
+    font-size: calc(4vw);
+  }
+}
+
 @media screen and (max-width: 333px) {
   .lead__subtitle {
-    max-width: 288px;
-    width: 100%;
     font-size: 16px;
     line-height: 20px;
+    margin: 0 0 40px 0;
+    max-width: 100%;
   }
 }

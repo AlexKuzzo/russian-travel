@@ -5,12 +5,27 @@
 
 .cover {
   max-width: 1184px;
-  min-height: 740px;
-  margin: 0 auto;
+  max-height: 740px;
+  margin: 92px auto 0;
   position: relative;
   color: #FFFFFF;
-  display: flex;
-  object-fit: contain;
+}
 
-  
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .cover {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .cover {
+    margin: 64px 0 0;
+  }
 }

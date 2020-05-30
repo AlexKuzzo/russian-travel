@@ -1,6 +1,4 @@
-.places__website_source_link {
-  max-width: 456px;
-  max-height: 22px;
+.place__website_source_link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
@@ -11,6 +9,6 @@
   padding-top: 12px;
 }
 
-.places__website_source_link:hover {
+.place__website_source_link:hover {
   opacity: 0.8;
 }

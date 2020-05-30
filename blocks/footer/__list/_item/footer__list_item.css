@@ -1,0 +1,10 @@
+.footer__list_item {
+  margin-right: 18px;
+}
+
+
+@media screen and (max-width: 333px) {
+ .footer__list_item {
+   margin-bottom: 32px;
+ }
+}

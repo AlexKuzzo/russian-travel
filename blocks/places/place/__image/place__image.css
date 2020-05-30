@@ -1,0 +1,13 @@
+.place__image {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 720px) and (min-width: 321px) {
+  .place__image {
+    max-width: 700px;
+    width: 100%;
+  }
+}
