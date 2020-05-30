@@ -3,6 +3,13 @@
 }
 
 
+
+@media screen and (max-width: 520px) and (min-width: 334px) {
+  .footer__list_item {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 333px) {
  .footer__list_item {
    margin-bottom: 32px;

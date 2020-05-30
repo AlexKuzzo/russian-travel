@@ -18,9 +18,13 @@
   }
 }
   
-@media screen and (max-width: 777px) and (min-width: 720px) {
+@media screen and (max-width: 720px) and (min-width: 334px) {
   .place:first-of-type {
     padding-top: 88px;
+  }
+  .place {
+    grid-template-columns: 1fr;
+    column-gap: 28px;
   }
 }
   

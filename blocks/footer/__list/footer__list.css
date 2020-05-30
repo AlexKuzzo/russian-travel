@@ -5,6 +5,12 @@
   list-style-type: none;
 }
 
+@media screen and (max-width: 520px) and (min-width: 334px) {
+  .footer__list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
 
 @media screen and (max-width: 333px) {
   .footer__list {
