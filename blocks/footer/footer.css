@@ -1,4 +1,4 @@
-@import url(./__nav/footer__nav.css);
+@import url(./__navigation/footer__navigation.css);
 @import url(./__list/footer__list.css);
 @import url(./__list/_item/footer__list_item.css);
 @import url(./__list/_item/footer__list_item_link.css);
@@ -10,7 +10,7 @@
   height: 18px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   padding: 92px 48px 24px 48px;
   align-items: center;
   
@@ -24,20 +24,21 @@
 }
 
 
-@media screen and (max-width: 755px) and (min-width: 520px) {
+@media screen and (max-width: 760px) and (min-width: 520px) {
   .footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     
   }
 }
 
 @media screen and (max-width: 520px) and (min-width: 334px) {
   .footer {
-    height: 313px;
+    height: 224px;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: start;
     padding: 64px 16px 24px;
   } 
 }
