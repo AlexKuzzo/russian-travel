@@ -1,3 +1,4 @@
+@import url(./__nav/footer__nav.css);
 @import url(./__list/footer__list.css);
 @import url(./__list/_item/footer__list_item.css);
 @import url(./__list/_item/footer__list_item_link.css);
@@ -9,8 +10,10 @@
   height: 18px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   padding: 92px 48px 24px 48px;
+  align-items: center;
+  
 
 }
 
