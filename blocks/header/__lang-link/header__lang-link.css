@@ -7,12 +7,15 @@
     line-height: 28px;
     list-style: none;
     display: flex;
-    padding-left: 30px;
-    padding-bottom: 3px;
     margin: 0;
-    align-self: flex-end
+    align-self: flex-end;
+    color: #ffffff;
+    text-decoration: none;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
 
   @media screen and (max-width: 333px) {
     .header__lang-link {

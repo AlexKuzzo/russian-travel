@@ -1,7 +1,7 @@
 @import url(./__navigation/footer__navigation.css);
 @import url(./__list/footer__list.css);
-@import url(./__list/_item/footer__list_item.css);
-@import url(./__list/_item/footer__list_item_link.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
 

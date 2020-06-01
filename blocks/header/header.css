@@ -1,11 +1,11 @@
 @import url(./__logo/header__logo.css);
+@import url(./__list/header__list.css);
+@import url(./__list-item/header__list-item.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_active/header__lang-link_active_ru.css);
-@import url(./__lang-link/_active/header__lang-link_active_en.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
   max-width: 1184px;
-  max-height: 52px;
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 28px;
@@ -21,7 +21,6 @@
 @media screen and (max-width: 777px) {
   .header {
     padding: 28px 24px 0;
-    margin: 0 0 56px 0;
   }
 }
 
