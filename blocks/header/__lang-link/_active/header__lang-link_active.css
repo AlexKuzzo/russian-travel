@@ -1,10 +1,5 @@
 .header__lang-link_active {
-    text-align: center;
-    display: inline-block;
-    color: #ffffff;
-    list-style: none;
-    padding-right: 18px;
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .header__lang-link_active:hover {
