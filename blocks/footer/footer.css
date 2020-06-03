@@ -34,7 +34,6 @@
 @media screen and (max-width: 520px) and (min-width: 334px) {
   .footer {
     flex-direction: column;
-    justify-content: flex-start;
     align-items: start;
     padding-top: 64px;
     padding-left: 16px;
