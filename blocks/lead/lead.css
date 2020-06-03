@@ -4,16 +4,21 @@
 @import url(../lead/__caption/lead__caption.css);
 
 .lead {
-    max-width: 984px;
-    margin: 0 auto;
-    padding: 0;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 
 @media screen and (max-width: 1028px) {
-    .lead {
-      padding-right: 48px;
-      padding-left: 48px;
-    }
+  .lead {
+  padding-right: 48px;
+  padding-left: 48px;
   }
+}
+
+@media screen and (max-width: 333px) {
+  .lead {
+  padding: 0;
+  }
+}
   
